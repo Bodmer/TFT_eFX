@@ -1,0 +1,5 @@
+TFT_eFX	KEYWORD1
+
+init	KEYWORD2
+drawBezier	KEYWORD2
+drawBezierSegment	KEYWORD2
