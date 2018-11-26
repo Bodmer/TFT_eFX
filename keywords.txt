@@ -1,5 +1,11 @@
 TFT_eFX	KEYWORD1
 
 init	KEYWORD2
+
+// Insert one tab character between function name and KEYWORD2
+// The easy way to do this is to copy and paste a line, then edit.
+
+myGraphicsFunction	KEYWORD2
+
 drawBezier	KEYWORD2
 drawBezierSegment	KEYWORD2

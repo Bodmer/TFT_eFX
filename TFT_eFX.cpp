@@ -22,6 +22,15 @@ TFT_eFX::TFT_eFX(TFT_eSPI *tft)
 
 }
 
+/***************************************************************************************
+** Function name:           myGraphicsFunction
+** Description:             Does whatever you want with the graphics library
+***************************************************************************************/
+void TFT_eFX::myGraphicsFunction(int32_t x, int32_t y, uint16_t color)
+{
+  // This is just an example that draws a 3x3 pixel block centered on x,y
+  _tft->fillRect(x-1, y-1, 3, 3, color);
+}
 
 /***************************************************************************************
 ** Function name:           drawQuadraticBezier
