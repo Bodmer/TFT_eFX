@@ -3,7 +3,7 @@
 
 A template graphics extension library for TFT_eSPI.
 
-Extra graphics functions can be added to this library to suit you projects. At the moment it has a function to draw curves and a simple 
+Extra graphics functions can be added to this library to suit your projects. At the moment it has a function to draw curves and a simple 
 myGraphicsFunction(x, y, color) example function that draws a 3x3 pixel block of the specified color centered on x,y
 
 See the TFT_eFX_Your_Function example to get the general idea.
